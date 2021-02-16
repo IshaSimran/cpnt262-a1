@@ -33,7 +33,7 @@
 label .fa-sun {
 	color: yellow;
 }
-.blob {
+.switch {
 	position: absolute;
 	left: 50%;
 	width: 50%;
@@ -52,7 +52,7 @@ label .fa-sun {
 .info.night {
 	color: white;
 }
-.checkbox:checked + .label .blob {
+.checkbox:checked + .label .switch {
 	left: 0;
 }
 .checkbox:checked + .label {
