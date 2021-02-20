@@ -17,6 +17,7 @@
 	align-items: center;
 
 	font-family: 'Karla', sans-serif;
+	font-variant: small-caps;
 }
 
 .container.night {
@@ -72,7 +73,7 @@
 }
 
 .checkbox:checked + .label {
-	background-color: grey;
+	background-color: black;
 }
 
 /***** Icons *****/
@@ -80,6 +81,7 @@
 .label .fa-moon {
 	color: lemonchiffon;
 }
+
 .label .fa-sun {
 	color: lightsalmon;
 }
